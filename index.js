@@ -1,9 +1,8 @@
 
-    fetch('https://trashnothing.com/api/v1.2/trashnothing-openapi.yaml', {
-	method: "GET",
-	headers: {"Content-type": "application/json"}
-})
- .then(response => response.json()) 
- .then(json => console.log(json));
+document.addEventListener('DOMContentLoaded', function(){
 
-console.log('hello!')
+	fetch('https://dog.ceo/api/breeds/image/random/5')
+	.then(res => res.json())
+	.then(data => console.log(data))
+
+})//end of DOMContentLoaded
