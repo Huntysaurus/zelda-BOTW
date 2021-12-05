@@ -2,3 +2,39 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+#card-container {
+    outline: 2px solid black;
+    size: 10px 10px;
+    position: 30px 30px;
+}
+
+.bg-image {
+    padding: 20em;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/523/952/non_2x/vector-floral-seamless-pattern-engraved-flower-petals-flourish-texture.jpg');
+
+}
+
+.cards {
+    position: 50% 10px;
+}
+
+#buttons {
+    position: 60%;
+}
+
+#hello {
+
+}
+
+#goodbye {
+
+}
+
+#wait {
+
+}
+
+#come-back {
+    
+}
