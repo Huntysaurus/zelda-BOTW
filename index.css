@@ -16,25 +16,70 @@ h1 {
 }
 
 .cards {
-    position: 50% 10px;
+    position: 60% 10px;
 }
 
 #buttons {
-    position: 60%;
+    word-spacing: 20px 20%;
+    flex: 20px;
 }
 
 #hello {
-
+    background-color: rgb(56, 112, 161);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding: 8px 12px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family:Blippo, fantasy;
 }
 
 #goodbye {
-
+    background-color: rgb(56, 112, 161);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding: 8px 12px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family:Blippo, fantasy;
 }
 
 #wait {
-
+    background-color: rgb(56, 112, 161);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding: 8px 12px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family:Blippo, fantasy;
 }
 
 #come-back {
-    
+    background-color: rgb(56, 112, 161);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding: 8px 12px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family:Blippo, fantasy;
 }
