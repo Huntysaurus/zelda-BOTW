@@ -4,19 +4,20 @@ h1 {
 }
 
 #card-container {
-    outline: 2px solid black;
-    size: 10px 10px;
-    position: 30px 30px;
+   border-color: black;
+   border-width: 10px;
 }
 
 .bg-image {
     padding: 20em;
-    background-image: url('https://static.vecteezy.com/system/resources/previews/000/523/952/non_2x/vector-floral-seamless-pattern-engraved-flower-petals-flourish-texture.jpg');
+    background-image: url('https://i.pinimg.com/564x/82/f5/c0/82f5c046439ff6b4517bc572f391f7a3.jpg');
+    background-position: top left;
+    background-size: 50%;
 
 }
 
-.cards {
-    position: 60% 10px;
+.image {
+    border-image: 50px;
 }
 
 #buttons {

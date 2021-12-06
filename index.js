@@ -1,24 +1,23 @@
 
 document.addEventListener('DOMContentLoaded', function(){
 
-	fetch('https://dog.ceo/api/breeds/image/random/5')
+	fetch('https://botw-compendium.herokuapp.com/api/v2/category/monsters')
 	.then(res => res.json())
-	.then(handlePictures)
+	.then(handleMonsterPics)
 
 })//end of DOMContentLoaded
 
-function handlePictures(jsonObject){
+//grab the images of all the monsters
+function handleMonsterPics(monsters){
 	let cardContainer = document.querySelector("#card-container")
-	let arrOfURLS = jsonObject.message
-	arrOfURLS.forEach(url => {
-		cardContainer.innerHTML += createImage(url)
-	})
+	monsters.data.forEach(monster => cardContainer.innerHTML += createImage(monster.image))
+	console.log(monsters)
 }
 
+//create and append monster images to the DOM
 function createImage(url){
-	let card = document.createElement('img')
-	card.className = ".cards"
-	console.log(card.className)
-	card = `<img src="${url}"/>`
-	return card
+	let image = document.querySelector('.image')
+	console.log(image)
+	image = `<img class="image" src="${url}" width"300" height"300"/>`
+	return image
 }
