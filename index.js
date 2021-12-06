@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 //grab the images of all the monsters
 function handleMonsterPics(monsters){
-	let cardContainer = document.querySelector("#card-container")
+	let cardContainer = document.querySelector("#image-container")
 	monsters.data.forEach(monster => cardContainer.innerHTML += createImage(monster.image))
 	console.log(monsters)
 }

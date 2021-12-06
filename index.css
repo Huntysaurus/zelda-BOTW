@@ -1,14 +1,36 @@
 h1 {
-    display: flex;
-    justify-content: center;
+    font-size: 75px;
+    color:rgb(255, 238, 0);
+    -webkit-text-stroke: 1.5px navy;
+    padding:10px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(131, 96, 0);
+    outline: black;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    margin-top: -4%;
+    padding: 5px;
+}
+
+#heading-container {
+    border:10px solid rgba(131, 96, 0, 0.651);
+    background-image: url('https://static.wikia.nocookie.net/zelda/images/3/3a/Hyrulecastlemalice.png/revision/latest?cb=20170424233439');
+    background-size:75%;
+    background-position: center;
+    background-position-y: 30%;
 }
 
 #card-container {
    border-color: black;
    border-width: 10px;
+   margin-left: 5%;
 }
 
-.bg-image {
+#bg-image {
     padding: 20em;
     background-image: url('https://i.pinimg.com/564x/82/f5/c0/82f5c046439ff6b4517bc572f391f7a3.jpg');
     background-position: top left;
@@ -16,13 +38,19 @@ h1 {
 
 }
 
+#image-container {
+    display:inline;
+}
+
 .image {
-    border-image: 50px;
+    padding:5%;
+    size: 50%
 }
 
 #buttons {
     word-spacing: 20px 20%;
     flex: 20px;
+    padding:10px;
 }
 
 #hello {
