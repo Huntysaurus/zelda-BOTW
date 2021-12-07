@@ -1,12 +1,4 @@
 h1 {
-    font-size: 75px;
-    color:rgb(255, 238, 0);
-    -webkit-text-stroke: 1.5px navy;
-    padding:10px;
-    margin-top: 5px;
-}
-
-h2 {
     font-size: 35px;
     color: rgb(131, 96, 0);
     outline: black;
@@ -17,34 +9,33 @@ h2 {
 }
 
 #heading-container {
+    margin:auto;
+    margin-top: -15%;
+    height: 700px;
+    width:100%;
     border:10px solid rgba(131, 96, 0, 0.651);
-    background-image: url('https://static.wikia.nocookie.net/zelda/images/3/3a/Hyrulecastlemalice.png/revision/latest?cb=20170424233439');
-    background-size:75%;
+    background-image: url('https://static.wikia.nocookie.net/logopedia/images/5/53/763px-BotW_NA_Logo.png/revision/latest?cb=20160701154320'), url('https://static.wikia.nocookie.net/zelda/images/3/3a/Hyrulecastlemalice.png/revision/latest?cb=20170424233439');
+    background-repeat: no-repeat;
     background-position: center;
-    background-position-y: 30%;
-}
-
-#card-container {
-   border-color: black;
-   border-width: 10px;
-   margin-left: 5%;
 }
 
 #bg-image {
     padding: 20em;
     background-image: url('https://i.pinimg.com/564x/82/f5/c0/82f5c046439ff6b4517bc572f391f7a3.jpg');
-    background-position: top left;
     background-size: 50%;
-
+    object-fit:fill;
 }
 
 #image-container {
-    display:inline;
+    outline: solid black;
+    margin:auto;
+    padding:10%;
 }
 
 .image {
     padding:5%;
-    size: 50%
+    size:20%;
+    margin:auto;
 }
 
 #buttons {
