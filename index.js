@@ -17,7 +17,7 @@ function handleMonsterPics(monsters){
 //create and append monster images to the DOM
 function createImage(url){
 	let image = document.createElement('img')
-	image.innerHTML = `<img class="image" src="${url}"/>`
+	image = `<img class="image" src="${url}"/>`
 	console.log(image)
 	// image.addEventListener('click', () => {
 	// 	console.log('click')
