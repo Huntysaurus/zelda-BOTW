@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 const URL = 'https://botw-compendium.herokuapp.com/api/v2/category'
 
-//grab the images of all the monsters
+//grab all images of the category
 function handleMonsterPics(monsters){
 	let imageContainer = document.querySelector("#image-container")
 	imageContainer.innerHTML = ''
@@ -33,21 +33,28 @@ function handleMonsterPics(monsters){
 	console.log(monsters)
 }
 
+function handleCreaturePics(creatures){
+	let imageContainer = document.querySelector("#image-container")
+	imageContainer.innerHTML = ''
+	creatures.data.food.forEach(creature => imageContainer.innerHTML += createImage(creature.image))
+	console.log(creatures)
+}
+
 //create and append images to the DOM
 function createImage(url){
 	let image = document.createElement('img')
 	image = `<img class="image" src="${url}"/>`
-	console.log(image)
 	// image.addEventListener('click', () => {
-	// 	console.log('click')
+	// 	console.log('Im clickable')
 	// })
+	console.log(image)
 	return image
 }
 
 function getCreatures() {
-	fetch(`${URL}/monsters`)
+	fetch(`${URL}/creatures`)
 	.then(res => res.json())
-	.then(handleMonsterPics)
+	.then(handleCreaturePics)
 }
 
 function getEquipment() {
