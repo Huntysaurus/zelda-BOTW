@@ -48,11 +48,7 @@
 }
 
 .image {
-    margin: auto;
-    margin-top: 10px;
-    margin-left: 25px;
     padding: 10px;
-    width: 200px;
 }
 
 #buttons {
@@ -139,4 +135,14 @@
     cursor: pointer;
     border-radius: 10px;
     font-family:Blippo, fantasy;
+}
+
+#image-description {
+    font-size: 18px;
+    color:rgb(78, 55, 5);
+    width:20%
+}
+
+#info-table {
+
 }
