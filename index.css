@@ -46,18 +46,54 @@
     margin-top: 2%;
     width:101%;
     column-width: 600px;
+    column-rule: 10px solid rgb(195, 171, 106);
+    column-gap: 3em;
+}
+
+.image-description {
+    max-height:50px;
 }
 
 .image {
-    max-width: 200%;
+    max-width: 500px;
     max-height: auto;
     padding: 10px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 15%;
+    margin-top: 0%;
 }
 
 image-div {
-    width:100%;
+    max-width:75%;
+}
+
+.info-table {
+    max-width:10px;
+}
+
+th {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    max-width:130px;
+}
+
+th, td {
+    padding:8px;
+}
+
+td {
+    margin-left: 10%;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(166, 200, 255);
+}
+
+tr:nth-child(even) {
+    background-color:cornsilk;
 }
 
 #buttons {
@@ -144,34 +180,4 @@ image-div {
     cursor: pointer;
     border-radius: 10px;
     font-family:Blippo, fantasy;
-}
-
-#info-table {
-    width:25%;
-}
-
-th {
-    text-align: left;
-}
-
-table, th, td {
-    border: 1px solid #000;
-    border-collapse: collapse;
-    width:25%;
-}
-
-th, td {
-    padding:8px;
-}
-
-td {
-    margin-left: 10%;
-}
-
-tr:nth-child(odd) {
-    background-color: rgb(166, 200, 255);
-}
-
-tr:nth-child(even) {
-    background-color:cornsilk;
 }

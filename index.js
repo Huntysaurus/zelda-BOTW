@@ -35,10 +35,10 @@ function createImage(url){
 	div.className = 'image-div'
 	div.innerHTML = `
 	<img class="image" src="${url.image}"/>
-	<p id="image-description">
+	<p class="image-description">
 		${url.description}
 	</p>
-	<table id="info-table">
+	<table class="info-table">
 		<tr>
 			<th>Name:</th>
 			<th>Category:</th>
