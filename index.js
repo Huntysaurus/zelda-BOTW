@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', function(){
 	const treasBut = document.querySelector("#treasure")
 	let imageContainer = document.querySelector("#image-container")
 
+	let backToTop = document.getElementById('back-to-top')
+
 	creatBut.addEventListener('click', getCreatures)
 	equipBut.addEventListener('click', getEquipment)
 	materBut.addEventListener('click', getMaterials)
@@ -66,6 +68,7 @@ function createImage(url){
 	imageContainer.append(div)
 }
 
+//fetches for categories
 function getCreatures() {
 	fetch(`${URL}/creatures`)
 	.then(res => res.json())
