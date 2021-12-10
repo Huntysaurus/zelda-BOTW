@@ -45,10 +45,19 @@
     margin:auto;
     margin-top: 2%;
     width:101%;
+    column-width: 600px;
 }
 
 .image {
+    max-width: 200%;
+    max-height: auto;
     padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+image-div {
+    width:100%;
 }
 
 #buttons {
@@ -137,12 +146,32 @@
     font-family:Blippo, fantasy;
 }
 
-#image-description {
-    font-size: 18px;
-    color:rgb(78, 55, 5);
-    width:20%
+#info-table {
+    width:25%;
 }
 
-#info-table {
+th {
+    text-align: left;
+}
 
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width:25%;
+}
+
+th, td {
+    padding:8px;
+}
+
+td {
+    margin-left: 10%;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(166, 200, 255);
+}
+
+tr:nth-child(even) {
+    background-color:cornsilk;
 }

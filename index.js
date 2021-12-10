@@ -19,7 +19,6 @@ const URL = 'https://botw-compendium.herokuapp.com/api/v2/category'
 //grab all images of the category
 function handleCategoryInfo(objects){
 	imageContainer.innerHTML = ''
-	//objects.data.forEach(object => imageContainer.innerHTML += createImage(object.image))
 	objects.data.forEach(object => createImage(object))
 }
 
@@ -32,11 +31,12 @@ function handleCreatureInfo(creatures){
 
 //create and append images to the DOM
 function createImage(url){
-	let span = document.createElement('span')
-	span.innerHTML = `
+	let div = document.createElement('div')
+	div.className = 'image-div'
+	div.innerHTML = `
 	<img class="image" src="${url.image}"/>
 	<p id="image-description">
-		"${url.description}"
+		${url.description}
 	</p>
 	<table id="info-table">
 		<tr>
@@ -45,13 +45,17 @@ function createImage(url){
 			<th>Common Locations:</th>
 			<th>Drops:</th>
 			<th>Cooking Effect:</th>
+			<th>Hearts Recoverd:</th>
+			<th>Defense:</th>
 		</tr>
 		<tr>
-			<td> ${url.name} </td>
-			<td> ${url.category} </td>
-			<td> ${url.common_locations} </td>
-			<td> ${url.drops} </td>
-			<td> ${url.cooking_effect} </td>
+			<td>${url.name}</td>
+			<td>${url.category}</td>
+			<td>${url.common_locations}</td>
+			<td>${url.drops}</td>
+			<td>${url.cooking_effect}</td>
+			<td>${url.hearts_recovered}</td>
+			<td>${url.defense}</td>
 			</tr>
 	</table>
 	`
@@ -59,7 +63,7 @@ function createImage(url){
 	// 	console.log("does not exist")
 	// }
 
-	imageContainer.append(span)
+	imageContainer.append(div)
 }
 
 function getCreatures() {
