@@ -36,6 +36,9 @@ function createImage(url){
 	let div = document.createElement('div')
 	div.className = 'image-div'
 	div.innerHTML = `
+	<h1>
+		${url.name}
+	</h1>
 	<img class="image" src="${url.image}"/>
 	<p class="image-description">
 		${url.description}
@@ -60,13 +63,21 @@ function createImage(url){
 			<td>${url.defense}</td>
 			</tr>
 	</table>
+	<form>
+		
+	</form>
 	`
-	// if(url.id.value = undefined) {
-	// 	console.log("does not exist")
-	// }
+	div.addEventListener('click', () => {
+		console.log('click')
+	})
 
 	imageContainer.append(div)
 }
+
+//back to top button
+backToTop.addEventListener('click', () => {
+	window.scrollTo(0,200)
+})
 
 //fetches for categories
 function getCreatures() {

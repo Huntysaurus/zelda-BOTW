@@ -39,7 +39,6 @@
 }
 
 #back-to-top {
-    display:none;
     position: fixed;
     padding:5px;
     right: 30px;
@@ -66,23 +65,30 @@
     margin-left: -19%;
     margin-top: 2%;
     width:140%;
-    columns:2;
-    column-rule: 10px solid rgb(195, 171, 106);
-    column-gap: 6em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+h1 {
+    margin-left:11.5%;
 }
 
 .image-description {
     max-height:50px;
-    background-color: rgb(255, 215, 154);
     font-size: 20px;
+    width:50%;
+    height:auto;
+    margin-bottom: 8%;
+    margin-left: 15%;
 }
 
 .image {
-    max-width: 500px;
-    max-height: auto;
+    width: 500px;
+    height: auto;
     padding: 10px;
     margin-top: 15%;
     margin-top: 0%;
+    margin-left:10%;
 }
 
 .image-div {
@@ -93,6 +99,7 @@
 
 .info-table {
     max-width:50px;
+    margin-left:7%;
 }
 
 th {
