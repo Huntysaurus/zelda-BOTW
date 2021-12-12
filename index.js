@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	const treasBut = document.querySelector("#treasure")
 	let imageContainer = document.querySelector("#image-container")
 
-	let backToTop = document.getElementById('back-to-top')
+	const backToTop = document.getElementById('back-to-top')
 
 	creatBut.addEventListener('click', getCreatures)
 	equipBut.addEventListener('click', getEquipment)
@@ -28,7 +28,6 @@ function handleCategoryInfo(objects){
 function handleCreatureInfo(creatures){
 	imageContainer.innerHTML = ''
 	creatures.data.food.forEach(creature => createImage(creature))
-	console.log(creatures)
 }
 
 //create and append images to the DOM
@@ -63,9 +62,6 @@ function createImage(url){
 			<td>${url.defense}</td>
 			</tr>
 	</table>
-	<form>
-		
-	</form>
 	`
 	div.addEventListener('click', () => {
 		console.log('click')
