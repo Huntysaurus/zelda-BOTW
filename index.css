@@ -69,6 +69,41 @@
     grid-template-columns: 50% 50%;
 }
 
+#form {
+    border:10px solid rgb(195, 171, 106);
+    max-width:600px;
+    background-image: url('https://www.teahub.io/photos/full/202-2020465_metallic-gold-seamless-texture.jpg');
+    margin-left:25.5%;
+}
+
+#search-label {
+    font-size: 30px;
+    display: block;
+    padding:10px;
+    color:rgb(110, 90, 33);
+    display:block;
+    margin-left:32%;
+}
+
+#search-by-name {
+    display: block;
+    font-size: 25px;
+    margin-left: 22.5%;
+}
+
+#submit {
+    background-color: rgb(25, 41, 122);
+    color: rgb(255, 255, 255);
+    border-color: rgb(195, 171, 106);
+    font-size: 25px;
+    letter-spacing: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-left: 40%;
+    margin-top:5px;
+}
+
 h1 {
     margin-left:11.5%;
 }
