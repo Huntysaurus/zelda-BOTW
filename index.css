@@ -44,7 +44,7 @@
     right: 30px;
     bottom: 20px;
     font-size: 20px;
-    background-color: rgb(158, 138, 81);
+    background-color: rgb(25, 41, 122);
     color: rgb(255, 255, 255);
     border-color: rgb(195, 171, 106);
     border-width: 5px;
@@ -120,7 +120,7 @@ h1 {
 .image {
     width: 500px;
     height: auto;
-    padding: 10px;
+    padding: 8px;
     margin-top: 15%;
     margin-top: 0%;
     margin-left:10%;
@@ -128,7 +128,7 @@ h1 {
 
 .image-div {
     max-width:100%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10%;
 }
 
