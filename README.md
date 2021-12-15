@@ -1,0 +1,1 @@
+# The Legend of Zelda: BOTW Encyclopedia

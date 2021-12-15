@@ -13,8 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	const backToTop = document.getElementById('back-to-top')
 
 //event listeners
-
-
 	backToTop.addEventListener('click', () => {
 		window.scrollTo(0,200)
 	})
