@@ -50,9 +50,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //create and append images to the DOM
 	function createImage(url){
-		console.log(url)
 		if (url.hasOwnProperty('name')) {
 			let div = document.createElement('div')
+			div.addEventListener('click', saveImage)
 			div.className = 'image-div'
 			div.innerHTML = `
 			<h1>
@@ -87,16 +87,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		} else {
 			alert('Unable to find. Double check for proper spelling and spacing.')
 		}
-		// div.addEventListener('click', () => {
-		// 	console.log('click')
-		// })
-
-		// if (url.name = 'thunderwing butterfly') {
-		// 	console.log(url.name)
-		// } else {
-		// 	imageContainer.append(div)
-		// }
 	}
+
+//saves the image to the top when clicked
+function saveImage(e) {
+	console.log(e.event.target)
+}
 
 //fetches for categories
 	function getCreatures() {
@@ -131,6 +127,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
 })//end of DOMContentLoaded
 
-//handles submit form errors
-function handlePromise(obj) {
-}
