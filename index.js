@@ -52,7 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	function createImage(url){
 		if (url.hasOwnProperty('name')) {
 			let div = document.createElement('div')
-			div.addEventListener('click', saveImage)
 			div.className = 'image-div'
 			div.innerHTML = `
 			<h1>
@@ -88,11 +87,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			alert('Unable to find. Double check for proper spelling and spacing.')
 		}
 	}
-
-//saves the image to the top when clicked
-function saveImage(e) {
-	console.log(e.event.target)
-}
 
 //fetches for categories
 	function getCreatures() {
