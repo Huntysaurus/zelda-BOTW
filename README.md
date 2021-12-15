@@ -6,5 +6,15 @@ As a user, you can either search for information by clicking on one of several c
 
 ## Credits
 
-The Legend of Zelda: BOTW Encyclopedia(BETA) uses information from https://gadhagod.github.io/Hyrule-Compendium-API/#/ 
+The Legend of Zelda: BOTW Encyclopedia(BETA) uses information from https://gadhagod.github.io/Hyrule-Compendium-API/#/
+
+All images used in CSS:
+
+https://logos.fandom.com/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild
+
+https://zelda-archive.fandom.com/wiki/Hyrule_Castle_(Breath_of_the_Wild)
+
+https://www.flickr.com/photos/webtreatsetc/5584888003
+
+https://www.freecreatives.com/textures/metallic-gold-textures.html
 
