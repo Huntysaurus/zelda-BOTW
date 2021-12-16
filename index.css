@@ -67,6 +67,7 @@
     width:140%;
     display: grid;
     grid-template-columns: 50% 50%;
+    z-index: -1;
 }
 
 #form {
@@ -95,13 +96,18 @@
     background-color: rgb(25, 41, 122);
     color: rgb(255, 255, 255);
     border-color: rgb(195, 171, 106);
+    border-width: 5px;
     font-size: 25px;
-    letter-spacing: 4px;
+    font-weight: 300;
+    letter-spacing: 5px;
     padding: 8px 12px;
+    vertical-align: middle;
     cursor: pointer;
-    border-radius: 7px;
+    border-radius: 10px;
+    font-family:Blippo, fantasy;
     margin-left: 40%;
-    margin-top:5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 h1 {
