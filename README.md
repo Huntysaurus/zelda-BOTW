@@ -4,7 +4,7 @@ The Legend of Zelda: BOTW Encyclopedia(BETA) is an encyclopedia app that contain
 
 As a user, you can either search for information by clicking on one of several category buttons or you can search by typing and submitting a specific name into the search bar, which will bring up all relative information and an image/images.
 
-![functionality snippet](https://im5.ezgif.com/tmp/ezgif-5-420175f4ba.gif)
+![functionality snippet](https://im5.ezgif.com/tmp/ezgif-5-c8417a9c0c.gif)
 
 ## Credits
 
