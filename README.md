@@ -4,6 +4,8 @@ The Legend of Zelda: BOTW Encyclopedia(BETA) is an encyclopedia app that contain
 
 As a user, you can either search for information by clicking on one of several category buttons or you can search by typing and submitting a specific name into the search bar, which will bring up all relative information and an image/images.
 
+![functionality snippet](https://im5.ezgif.com/tmp/ezgif-5-420175f4ba.gif)
+
 ## Credits
 
 The Legend of Zelda: BOTW Encyclopedia(BETA) uses information from https://gadhagod.github.io/Hyrule-Compendium-API/#/
@@ -17,4 +19,6 @@ https://zelda-archive.fandom.com/wiki/Hyrule_Castle_(Breath_of_the_Wild)
 https://www.flickr.com/photos/webtreatsetc/5584888003
 
 https://www.freecreatives.com/textures/metallic-gold-textures.html
+
+
 
